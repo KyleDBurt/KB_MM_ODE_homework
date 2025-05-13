@@ -1,7 +1,9 @@
 ---
 title: "ODE_DynamicModels_homework"
 author: "Kyle Burt, Michelle Moreno"
-format: html
+format: 
+  html:
+    embed-resources: true
 editor: visual
 ---
 
@@ -156,5 +158,3 @@ threshyear <- result$time[idx]
 
 print(threshyear)
 ```
-
-
